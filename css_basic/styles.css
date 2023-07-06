@@ -10,3 +10,7 @@ main {
     flex-direction: row;
     flex: auto;
 }
+
+body main section span{
+    flex: 2;
+}
