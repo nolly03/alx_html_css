@@ -1,0 +1,12 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
