@@ -262,6 +262,7 @@
          position: relative;
          z-index: 3;
          background: transparent;
+         align-items: center;
   }
   
   
