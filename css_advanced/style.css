@@ -1,0 +1,189 @@
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px;
+  }
+  header,
+  .pros {
+    background-image: url("images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+  
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+    float: left;
+  }
+  
+  nav {
+    float: right;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+  }
+  
+  nav a:hover {
+    color: #000;
+  }
+  
+  /* Main */
+  .pros {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .pros h2 {
+    text-align: center;
+  }
+  
+  .pros .button {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .pros .button button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Quote */
+  #quote-section {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  #quote-section img {
+    float: left;
+    margin-right: 20px;
+  }
+  
+  #quote-section blockquote {
+    margin: 0;
+  }
+  
+  #quote-section cite {
+    font-size: 12px;
+    color: #999;
+  }
+  
+  /* Video */
+  .video-block {
+    margin-bottom: 20px;
+  }
+  
+  .video-block img {
+    width: 25%;
+  }
+  
+  .video-block h3 {
+    margin-top: 0;
+  }
+  
+  .video-block .author-block {
+    float: left;
+  }
+  
+  .video-block .rating-block {
+    float: right;
+  }
+  
+  /* Membership */
+  .membership {
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+  
+  .membership h2 {
+    text-align: center;
+  }
+  
+  .membership .block-item {
+    margin-bottom: 20px;
+  }
+  
+  .membership .block-item img {
+    width: 100%;
+  }
+  
+  .membership .button {
+    text-align: center;
+  }
+  
+  .membership .button button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* FAQ */
+  .faq {
+    background-color: #fff;
+    padding: 20px;
+  }
+  
+  .faq h2 {
+    text-align: center;
+  }
+  
+  .faq .row-block {
+    margin-bottom: 20px;
+  }
+  
+  .faq .row-block .item-block {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #f7f7f7;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  footer img {
+    width: 100px;
+  }
+  
+  footer p {
+    margin-top: 0;
+  }
+  
+  /* Media queries */
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    .pros {
+      padding: 10px;
+    }
+  
+    .video-block {
+      margin-bottom: 10px;
+    }
+  
+    .membership {
+      padding: 10px;
+    }
+  
+    .faq {
+      padding: 10px;
+    }
+  
+    footer {
+      padding: 10px;
+    }
+  }
+  
